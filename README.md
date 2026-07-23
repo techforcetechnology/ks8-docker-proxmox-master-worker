@@ -34,5 +34,8 @@ sudo apt update
 sudo apt install openssh-server qemu-guest-agent suocurl wget vim git
 ```
 ## Shutdown
-Convert to Template.
+
+Convert to Template
+
 Clone
+
