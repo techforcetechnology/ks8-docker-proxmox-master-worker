@@ -25,3 +25,7 @@
 # Step 1 Install Proxmox
 
 Install latest Proxmox VE
+# Step 2 Create Ubuntu VM Template
+
+## Install Ubuntu
+Install
