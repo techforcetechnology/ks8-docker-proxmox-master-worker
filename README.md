@@ -13,8 +13,13 @@
 80 GB SSD
 # Minimum cluster
 
-Node	      IP/
-master	  192.168.10.10/
+
+
 worker1	  192.168.10.11/
 worker2	  192.168.10.12
+| Node       | IP |
+|-----:      |-----------|
+| master     | 92.168.10.10|
+| worker1    | 192.168.10.11|
+| worker2    | 192.168.10.12|
 **Ubuntu Server 24.04 LTS or newer**
