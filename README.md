@@ -58,3 +58,22 @@ worker3
 ```
 nano /etc/hosts
 ```
+
+# Step 4 Disable Swap
+```
+swapoff -a
+```
+Edit
+```
+/etc/fstab
+```
+**Comment swap**
+Verify
+```
+free -h
+```
+
+
+
+
+
