@@ -21,3 +21,7 @@
 
 
 **Ubuntu Server 24.04 LTS or newer**
+
+# Step 1 Install Proxmox
+
+Install latest Proxmox VE
