@@ -30,10 +30,6 @@ Install latest Proxmox VE
 ## Install Ubuntu
 Install
 ```
-openssh-server
-qemu-guest-agent
-curl
-wget
-vim
-git
+sudo apt update 
+sudo apt install openssh-server qemu-guest-agent suocurl wget vim git
 ```
