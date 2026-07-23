@@ -281,6 +281,56 @@ Expected output
 Docker:        active (running)
 cri-docker:    active (running)
 ```
+## Install CNI 
+
+**Recommended**
+
+Cilium
+Calico
+
+Example Flannel
+```
+sudo kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
+```
+Verify
+```
+kubectl get nodes
+```
+
+Should show
+```
+master     Ready
+
+worker1    Ready
+
+worker2    Ready
+```
+## Install Metrics Server
+```
+kubectl apply -f metrics-server.yaml
+```
+Verify
+```
+kubectl top nodes
+```
+## Install MetalLB (Load balancer)
+```
+kubectl apply -f metallb-native.yaml
+```
+Pool example
+```
+192.168.10.240-192.168.10.250
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
