@@ -38,4 +38,13 @@ sudo apt install openssh-server qemu-guest-agent suocurl wget vim git
 Convert to Template
 
 Clone
+```
+master
+
+worker1
+
+worker2
+
+worker3
+```
 
