@@ -48,3 +48,13 @@ worker2
 worker3
 ```
 
+| Node     | IP |
+|-----      |-----------|
+|master     |192.168.10.10|
+|worker1    |192.168.10.11|
+|worker2    |192.168.10.12|
+
+## Update hosts
+```
+nano /etc/hosts
+```
