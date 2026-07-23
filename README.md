@@ -29,3 +29,11 @@ Install latest Proxmox VE
 
 ## Install Ubuntu
 Install
+```
+openssh-server
+qemu-guest-agent
+curl
+wget
+vim
+git
+```
