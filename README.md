@@ -8,6 +8,6 @@
 50 GB SSD
 
 ## Worker
-4 vCPU
-8 GB RAM
+4 vCPU \
+8 GB RAM \
 80 GB SSD
